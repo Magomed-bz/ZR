@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 		 if (error === 0){
 		 	let response= await fetch('mail.php', {
-		 		mathod: 'POST',
+		 		method: 'POST',
 		 		body: formData
 		 	});
 		 	if (response.ok){
