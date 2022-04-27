@@ -14,7 +14,7 @@ $mail->IsHTML=(true);
 $mail->setForm('ttotikil@gmail.com','123');
 $mail->addAddress('zurinka13-06@mail.ru');
 $mail->Sudject = 'Привет';
- $body.='<p><strong>Имя:</strong>'.$_POST[name]'</p>';
+ $body.='<p><strong>Имя:</strong>'.$_GET[name]'</p>';
 
  $mail->Body =$body;
  if(!$mail->send()){
