@@ -59,6 +59,6 @@ document.addEventListener('DOMContentLoaded',function(){
 		input.classList.remove('_error');
 	}
 	function emailTest(input){
-		return  /^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$/.test(input.value);
+		return  /^$/.test(input.value);
 	}
 });
