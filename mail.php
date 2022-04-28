@@ -18,7 +18,7 @@ $mail->Sudject = 'Привет';
 
  $mail->Body =$body;
  if(!$mail->send()){
- 	$message = 'Ошибка'ж
+ 	$message = 'Ошибка';
  }else{
  	$message = 'Данные отправлены!';
  }
